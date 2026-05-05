@@ -1,0 +1,33 @@
+{
+  "name": "ejercicio-asincronia",
+  "version": "1.0.0",
+  "description": "Ejercio propuesto por ManzDev durante el Bootcamp de desarrollo web. Asncronía y consumo de APIs.",
+  "main": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "start": "servor src/ index.html 8080 --reload",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "dom",
+    "asincronia",
+    "async",
+    "fetch",
+    "tvmaze-api",
+    "bootcamp",
+    "manzdev",
+    "frontend"
+  ],
+  "author": "display:felix",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0",
+    "servor": "4.0.2"
+  }
+}
