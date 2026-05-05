@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'AmaticSC';
+  src: url('./assets/fonts/AmaticSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'AmaticSC';
+  src: url('./assets/fonts/AmaticSC-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'CoveredByYourGrace';
+  src: url('./assets/fonts/CoveredByYourGrace-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
