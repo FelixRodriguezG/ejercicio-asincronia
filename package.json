@@ -7,7 +7,10 @@
   "scripts": {
     "start": "servor src/ index.html 8080 --reload",
     "lint": "oxlint",
-    "lint:fix": "oxlint --fix"
+    "lint:fix": "oxlint --fix",
+    "build": "cp -r src dist",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "html",
@@ -24,8 +27,10 @@
   ],
   "author": "display:felix",
   "license": "ISC",
+  "homepage": "https://FelixRodriguezG.github.io/ejercicio-asincronia",
   "packageManager": "pnpm@10.28.2",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "oxfmt": "^0.47.0",
     "oxlint": "^1.62.0",
     "servor": "4.0.2"
