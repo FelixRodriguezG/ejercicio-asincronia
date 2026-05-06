@@ -12,20 +12,39 @@
 
 <body>
     <header class="banner">
-        <h1>TVMazeApi</h1>
+        <h1 class="title">TVMazeApi</h1>
     </header>
-    <main>
-        <section>
+<style>img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 6 / 9; 
+  background-color: #f0f0f0; 
+}</style>
+    <main >
+        <section class="container">
             <!-- Dom content loaded here -->
-            <header class="main-info"></header>
-            <article class="episodes"></article>
-            <footer class="description"></footer>
+             <article class="wrapper">
+                 <div class="main-info"></div>
+                 <article class="episodes "><div class="loader"></div></article>
+            </article>
+                <footer class="section-footer">
+                        <p class="description">Aqui va la descripción</p>
+                        <form action="#" method="get" class="search-form">
+                            <label for="search">
+                                <input type="number" min="0"
+                                step="1" id="search" name="search
+                                    " placeholder="Enter show ID" required>
+                            </label>
+                            <button>Search Show</button>
+                        </form>
+                </footer>  
+
         </section>
     </main>
     <footer class="footer">
         <div class="footer-links">
-            <a href="https://manzdev.com" target="_blank" rel="noopener noreferrer">Bootcamp manzdev - 2026</a>
-            <a href="https://tvmaze.com" target="_blank" rel="noopener noreferrer">TVMaze</a>
+            <a class="links" href="https://manzdev.com" target="_blank" rel="noopener noreferrer">Bootcamp manzdev - 2026</a>
+            <a class="links" href="https://tvmaze.com" target="_blank" rel="noopener noreferrer">TVMaze</a>
         </div>
         <p>Special Thanks to TVMazeApi for the amazing API!</p>
     </footer>
